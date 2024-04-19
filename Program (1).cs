@@ -21,6 +21,7 @@ namespace TigerSoccerClub
         public double Price { get; set; }
 
         static void Main(string[] args)
+              static void Main(string[] args)
         {
             int i = 0;
             double total = 0;
@@ -48,6 +49,7 @@ namespace TigerSoccerClub
                     Name = Console.ReadLine();
 
                      Console.Write("Registration type: ");
+                     Registration = Console.ReadLine();
                      Registration = Console.ReadLine();
 
                     Console.Write("Enter Yes/No to indicate wheather you want jersey: ");
@@ -144,6 +146,7 @@ namespace TigerSoccerClub
                             Console.WriteLine(s2);
                             Console.WriteLine("******************************************************************************************************");
                             Console.WriteLine("Name    " + " Type   " + " Jersey   " + " Total ");
+                            Console.WriteLine(Name + " " + Registration + " "+ " " + " " + Jersey + " " + " " + " " + total);
                             Console.WriteLine(Name + " " + Registration + " "+ " " + " " + Jersey + " " + " " + " " + total);
                             Console.WriteLine("\n");
 
